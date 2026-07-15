@@ -1,0 +1,15 @@
+cells:
+  immersion_value:
+    displayName: "Immersion Cooling"
+    value:
+      field: "value"
+    label:
+      units: " W"
+      decimalPoints: 0
+  immersion_box:
+    displayName: "Immersion Box"
+    value:
+      field: "value"
+    label:
+      units: " W"
+      decimalPoints: 0

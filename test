@@ -2,14 +2,17 @@ cells:
   immersion_value:
     displayName: "Immersion Cooling"
     value:
-      field: "value"
+      field: value
+      interpolate: linear
+      lastNotNull: true
     label:
       units: " W"
       decimalPoints: 0
-  immersion_box:
-    displayName: "Immersion Box"
-    value:
-      field: "value"
-    label:
-      units: " W"
-      decimalPoints: 0
+    thresholds:
+      steps:
+        - value: 0
+          color: "green"
+        - value: 900
+          color: "yellow"
+        - value: 950
+          color: "red"
